@@ -1,11 +1,11 @@
-[![PyPI](https://img.shields.io/pypi/v/check_uncommitted_get_changes)](https://pypi.org/project/check_uncommitted_get_changes/)
-![Python Versions](https://img.shields.io/pypi/pyversions/check_uncommitted_get_changes.svg)
-![Build Status](https://github.com/roskakori/check_uncommitted_get_changes/actions/workflows/build.yaml/badge.svg)
-[![License](https://img.shields.io/github/license/roskakori/check_uncommitted_get_changes)](https://opensource.org/licenses/BSD-3-Clause)
+[![PyPI](https://img.shields.io/pypi/v/check_uncommitted_git_changes)](https://pypi.org/project/check_uncommitted_git_changes/)
+![Python Versions](https://img.shields.io/pypi/pyversions/check_uncommitted_git_changes.svg)
+![Build Status](https://github.com/roskakori/check_uncommitted_git_changes/actions/workflows/build.yaml/badge.svg)
+[![License](https://img.shields.io/github/license/roskakori/check_uncommitted_git_changes)](https://opensource.org/licenses/BSD-3-Clause)
 
-# check_uncommitted_get_changes
+# check_uncommitted_git_changes
 
-`Check_uncommitted_get_changes` is a command line tool to check for
+`check_uncommitted_git_changes` is a command line tool to check for
 uncommitted git changes to identify outdated generated content during
 continuous integration.
 
@@ -34,26 +34,26 @@ be viewed using
 git status
 ```
 
-Calling `check_uncommitted_get_changes` after the generators have run can
+Calling `check_uncommitted_git_changes` after the generators have run can
 check for such changes. If there are none, its exit code is 0 and
 continuous integration can continue. If changes are found, the exit code is
 1 and continuous integration fails.
 
 ## Usage
 
-Add `check_uncommitted_get_changes` to your projects using the respective
+Add `check_uncommitted_git_changes` to your projects using the respective
 command depending on how you manage your Python packages.
 
 For poetry, run:
 
 ```bash
-poetry add --dev check_uncommitted_get_changes
+poetry add --dev check_uncommitted_git_changes
 ```
 
 For setuptools, run:
 
 ```bash
-pip install --upgrade check_uncommitted_get_changes
+pip install --upgrade check_uncommitted_git_changes
 ```
 
 or add an entry to your `*requirements.txt`.
@@ -83,7 +83,7 @@ The same principle can be applied to
 
 `Check_uncommitted_git_changes` is open source and distributed under the BSD
 license. The source code is available from
-<https://github.com/roskakori/check_uncommitted_get_changes>.
+<https://github.com/roskakori/check_uncommitted_git_changes>.
 
 ## Change history
 
