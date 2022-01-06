@@ -1,3 +1,8 @@
+[![PyPI](https://img.shields.io/pypi/v/check_uncommitted_get_changes)](https://pypi.org/project/check_uncommitted_get_changes/)
+![Python Versions](https://img.shields.io/pypi/pyversions/check_uncommitted_get_changes.svg)
+![Build Status](https://github.com/roskakori/check_uncommitted_get_changes/actions/workflows/build.yaml/badge.svg)
+[![License](https://img.shields.io/github/license/roskakori/check_uncommitted_get_changes)](https://opensource.org/licenses/BSD-3-Clause)
+
 # check_uncommitted_get_changes
 
 `Check_uncommitted_get_changes` is a command line tool to check for
