@@ -1,6 +1,7 @@
 [![PyPI](https://img.shields.io/pypi/v/check_uncommitted_git_changes)](https://pypi.org/project/check_uncommitted_git_changes/)
-![Python Versions](https://img.shields.io/pypi/pyversions/check_uncommitted_git_changes.svg)
-![Build Status](https://github.com/roskakori/check_uncommitted_git_changes/actions/workflows/build.yaml/badge.svg)
+[![Python Versions](https://img.shields.io/pypi/pyversions/check_uncommitted_git_changes.svg)](https://www.python.org/downloads/)
+[![Build Status](https://github.com/roskakori/check_uncommitted_git_changes/actions/workflows/build.yaml/badge.svg)](https://github.com/roskakori/check_uncommitted_git_changes/actions/workflows/build.yaml)
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License](https://img.shields.io/github/license/roskakori/check_uncommitted_git_changes)](https://opensource.org/licenses/BSD-3-Clause)
 
 # check_uncommitted_git_changes
