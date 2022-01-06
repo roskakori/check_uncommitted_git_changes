@@ -63,25 +63,32 @@ poetry run pre-commit run --all-files
 
 ## Release cheatsheet
 
-The following notes are only relevant for developers with access to the 
+The following notes are only relevant for developers with access to the
 PyPI project.
 
 To add a new release, first update the `pyproject.toml`:
+
 ```toml
 [tool.poetry]
 version = "1.x.x"
 ```
+
 Next build the project and run the tests to ensure everything works:
+
 ```bash
 poetry build
 poetry run pytest
 ```
+
 Then create a tag in the repository:
+
 ```bash
 git tag -a -m "Tagged version 1.x.x." v1.x.x
 git push --tags
 ```
+
 And finally publish the new version on PyPI:
+
 ```bash
 poetry publish
 ```
