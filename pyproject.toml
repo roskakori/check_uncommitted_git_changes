@@ -67,6 +67,7 @@ python = "^3.6"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6"
+pytest-cov = "^3"
 
 [tool.poetry.scripts]
 check_uncommitted_git_changes = "check_uncommitted_git_changes.main:main"
