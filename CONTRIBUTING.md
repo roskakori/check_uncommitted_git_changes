@@ -3,6 +3,7 @@
 ## Getting started
 
 To obtains the source code, run:
+
 ```bash
 git clone https://github.com/roskakori/check_uncommitted_git_changes.git
 cd check_uncommitted_git_changes
@@ -22,6 +23,26 @@ To run the tests:
 ```bash
 poetry run pytest
 ```
+
+To build a test coverage report, run:
+
+```bash
+sh scripts/build_test_coverage_report.sh
+```
+
+and then open the file `htmlcov/index.html` in your browser.
+
+## Keeping dependencies up to date
+
+To check for new versions of dependencies and update them accordingly, run:
+
+```bash
+sh scripts/update_dependencies.sh
+```
+
+However, this only updates minor versions and patches. To update to newer
+major versions you have to manually check the homepage of the respective
+package.
 
 ## Checking the coding style
 

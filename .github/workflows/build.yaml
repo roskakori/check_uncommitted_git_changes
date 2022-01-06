@@ -35,7 +35,7 @@ jobs:
           poetry build
       - name: Run the test suite
         run: |
-          poetry run pytest --cov=check_uncommitted_git_changes --cov-branch
+          poetry run pytest
       - name: Load cached pre-commit
         id: cached-pre-commit
         uses: actions/cache@v2
